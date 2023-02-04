@@ -1,7 +1,7 @@
 # Mainstream
+[![Go Reference](https://pkg.go.dev/badge/github.com/brotherday/mainstream-frontend.svg)](https://pkg.go.dev/github.com/brotherday/mainstream-frontend)
 
-## Clone
-How to clone this repository
+## How to clone this repository
 ```shell
 $ git clone https://github.com/brotherday/mainstream-frontend
 $ cd mainstream-frontend
@@ -10,8 +10,7 @@ $ cd mainstream-frontend
 ## Requirements
 This project requires to install go >= 1.9.
 
-### Version
-How to check your version
+### How to check your version
 ```shell
 $ go version
 ```
@@ -21,21 +20,31 @@ and it should returns:
 go version go<version number> <platform os>/<arch>
 ```
 
-How to update
+## How to update
 Follow the link below and install the new version.
 
-## Install
+## How to install the lastest version of go
 Download and install go from the official website here
 https://go.dev/doc/install
 
-## Run
-It is that easy.
+## How to install all dependencies
 ```shell
-$ go run
+$ go mod download
 ```
 
-## Build
+## How to run
+It is that easy.
+```shell
+$ go run .
+```
+
+## How to build
 You may create a build whenever you would like to build a standalone executable for your platform.
 ```shell
 $ go build
+```
+
+## How to install the software in the current path
+```shell
+$ go install
 ```
