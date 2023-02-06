@@ -3,6 +3,7 @@ LABEL one.brotherday.vendor "Brother Day"
 LABEL one.brotherday.image.authors "Steve Huguenin <steve@brotherday.one>"
 LABEL version 1.0
 LABEL description "Multi-stage Docker image for mainstream frontend"
+LABEL org.opencontainers.image.source https://github.com/mainstream/frontend
 LABEL license AGPL-3.0
 WORKDIR /mainstream
 ADD . .
